@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Libre Baskerville', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #ffeef8 0%, #ffe4f1 100%);
+  background: linear-gradient(135deg, #F3E8FF 0%, #E6D7FF 100%);
 }
 
 /* ===== RESPONSIVE 3-COLUMN LAYOUT ===== */
@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   gap: clamp(0.75rem, 3vw, 2.5rem);
   padding: clamp(0.75rem, 3vw, 2.5rem);
-  background: linear-gradient(135deg, #ffeef8 0%, #ffe4f1 100%);
+  background: linear-gradient(135deg, #F3E8FF 0%, #E6D7FF 100%);
   min-height: 100%;
   align-items: center;
   justify-content: center;
@@ -25,10 +25,10 @@ body {
 .puzzle-title {
   font-size: clamp(1.75rem, 5vw, 2.5rem);
   font-weight: 700;
-  color: #c9184a;
+  color: #9B7FB8;
   text-align: center;
   margin-bottom: clamp(1rem, 2vw, 1.5rem);
-  text-shadow: 0 2px 4px rgba(201, 24, 74, 0.15);
+  text-shadow: 0 2px 4px rgba(155, 127, 184, 0.15);
   letter-spacing: -0.5px;
   animation: titlePulse 2s ease-in-out infinite;
 }
@@ -44,7 +44,7 @@ body {
 
 .puzzle-instruction-main {
   font-size: clamp(0.95rem, 2.5vw, 1.15rem);
-  color: #c9184a;
+  color: #9B7FB8;
   font-weight: 600;
   text-align: center;
   line-height: 1.6;
@@ -53,7 +53,7 @@ body {
 
 .puzzle-instruction-sub {
   font-size: clamp(0.85rem, 2vw, 1rem);
-  color: #d63a5a;
+  color: #B19CD9;
   font-weight: 500;
   text-align: center;
   line-height: 1.5;
@@ -62,12 +62,12 @@ body {
 
 .puzzle-hint {
   font-size: clamp(0.8rem, 1.8vw, 0.95rem);
-  color: #c9184a;
+  color: #9B7FB8;
   text-align: center;
   font-weight: 500;
   padding: clamp(0.5rem, 1.5vw, 1rem) clamp(1rem, 2vw, 1.5rem);
-  background: rgba(255, 192, 203, 0.2);
-  border-left: 3px solid #ff69b4;
+  background: rgba(200, 162, 200, 0.2);
+  border-left: 3px solid #C8A2C8;
   border-radius: 0.5rem;
   margin-top: clamp(1rem, 2vw, 1.5rem);
   max-width: 500px;
@@ -78,10 +78,10 @@ body {
 
 .instructions {
   text-align: center;
-  color: #c9184a;
+  color: #9B7FB8;
   font-size: clamp(0.875rem, 2.5vw, 1.5rem);
   font-weight: 500;
-  text-shadow: 0 0.125rem 0.25rem rgba(201, 24, 74, 0.1);
+  text-shadow: 0 0.125rem 0.25rem rgba(155, 127, 184, 0.1);
   margin-bottom: clamp(0.5rem, 1.5vw, 1.25rem);
 }
 
@@ -179,7 +179,7 @@ body {
 }
 
 .column-title {
-  color: #c9184a;
+  color: #9B7FB8;
   font-size: clamp(0.75rem, 2vw, 1.125rem);
   font-weight: 600;
   text-align: center;
@@ -198,13 +198,13 @@ body {
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   transition: transform 0.2s ease, filter 0.2s ease;
-  filter: drop-shadow(0 0.25rem 0.75rem rgba(255, 105, 180, 0.2));
+  filter: drop-shadow(0 0.25rem 0.75rem rgba(200, 162, 200, 0.2));
 }
 
 .drag-item.dragging {
   cursor: grabbing;
   transform: scale(1.1) rotate(2deg);
-  filter: drop-shadow(0 0.5rem 1.25rem rgba(255, 105, 180, 0.4));
+  filter: drop-shadow(0 0.5rem 1.25rem rgba(200, 162, 200, 0.4));
 }
 
 .drag-item-image {
@@ -234,7 +234,7 @@ body {
   right: clamp(-0.5rem, -1.5vw, -1.25rem);
   bottom: clamp(-0.5rem, -1.5vw, -1.25rem);
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 105, 180, 0.3) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(200, 162, 200, 0.3) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -249,7 +249,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100%;
-  background: linear-gradient(135deg, #ffeef8 0%, #ffe4f1 100%);
+  background: linear-gradient(135deg, #F3E8FF 0%, #E6D7FF 100%);
   padding: clamp(0.75rem, 3vw, 2.5rem);
 }
 
@@ -281,7 +281,7 @@ body {
   right: clamp(-0.875rem, -2.5vw, -1.875rem);
   bottom: clamp(-0.875rem, -2.5vw, -1.875rem);
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 105, 180, 0.5) 50%, transparent 70%);
+  background: radial-gradient(circle, rgba(200, 162, 200, 0.5) 50%, transparent 70%);
   animation: heartPulseLarge 1.5s ease-in-out infinite;
   pointer-events: none;
 }
@@ -294,18 +294,18 @@ body {
 }
 
 .message-text {
-  color: #c9184a;
+  color: #9B7FB8;
   font-size: clamp(1rem, 3vw, 2rem);
   font-weight: 600;
-  text-shadow: 0 0.125rem 0.5rem rgba(201, 24, 74, 0.3);
+  text-shadow: 0 0.125rem 0.5rem rgba(155, 127, 184, 0.3);
   margin: 0;
 }
 
 .message-para {
-  color: #c9184a;
+  color: #9B7FB8;
   font-size: clamp(0.75rem, 2vw, 1rem);
   font-weight: 600;
-  text-shadow: 0 0.125rem 0.5rem rgba(201, 24, 74, 0.3);
+  text-shadow: 0 0.125rem 0.5rem rgba(155, 127, 184, 0.3);
   margin: 0;
 }
 
@@ -379,20 +379,35 @@ body {
 
 @keyframes glowPulse {
   0%, 100% {
-    filter: drop-shadow(0 0 6px rgba(255,105,180,0.35));
+    filter: drop-shadow(0 0 6px rgba(200,162,200,0.35));
     opacity: 1;
     transform: translateY(0) scale(1);
   }
   40% {
-    filter: drop-shadow(0 0 18px rgba(255,105,180,0.8));
+    filter: drop-shadow(0 0 18px rgba(200,162,200,0.8));
     opacity: 0.95;
     transform: translateY(-3px) scale(1.03);
   }
   60% {
-    filter: drop-shadow(0 0 14px rgba(255,182,193,0.65));
+    filter: drop-shadow(0 0 14px rgba(212,197,232,0.65));
     opacity: 0.98;
     transform: translateY(-1px) scale(1.02);
   }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out;
 }
 
 /* No media queries needed - clamp() handles all screen sizes responsively */

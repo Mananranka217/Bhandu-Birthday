@@ -1,3 +1,4 @@
+import React from "react";
 import heartImg from "../../../images/heart.png";
 import { SUCCESS_MESSAGES } from "../../data/messages";
 
