@@ -11,6 +11,7 @@ export default defineConfig({
   resolve: {
     alias: {
       // Alias @ to the src directory
+      base: "/birthday_wish/",
       '@': path.resolve(__dirname, './src'),
     },
   },
